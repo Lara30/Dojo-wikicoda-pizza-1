@@ -5,13 +5,17 @@ ul{
   float: right;
   margin-top: 30px;
 }
-li{
+li {
   display: inline;
+}
+a{
+  text-decoration: none;
   list-style: none;
   margin-right: 40px;
   color : #F46534;
   font-size: 20px;
 }
+
 #logo{
   width: 10%;
   margin-top: 10px;
@@ -84,6 +88,7 @@ h1{
 }
 .ensemble{
   background-image: url("images/bg2.jpg");
+  height: 1300px;
 }
 .box{
   padding: 20px 50px 20px 50px;
