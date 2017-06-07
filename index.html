@@ -24,6 +24,7 @@
     </header>
 
     <div class="ensemble">
+    <form method="post" action="data.php">
     <section class="top">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-6">
@@ -31,7 +32,7 @@
           <div><img src="images/logo.png" alt="logo pizza">
             <div class="ligne"></div>
           </div>
-        <input ID="btn" type="submit" value="VALIDER LA COMMANDE"></input>
+        <input id="btn" type="submit" value="VALIDER LA COMMANDE"></input>
         <h1> WikiCoda </h1>
         </div>
       </div>
@@ -39,11 +40,11 @@
         <div class="formulaire col-xs-12 col-sm-12 col-md-6">
           <h2>COMMANDER</h2>
           <p>Remplir le formulaire...</p>
-          <form method="post" action="data.php">
+
             <input id="Name" name="name" placeholder="Nom" value=""><br>
             <input id="Tel" name="tel" placeholder="Téléphone" value=""><br>
             <textarea id="Address" name="address" placeholder="Adresse" row="5" value=""></textarea>
-          </form>
+
           <p>Et choisissez vos pizzas, puis valider la commande !</p>
         </div>
       </div>
@@ -92,6 +93,7 @@
             <img class="pizza" src="images/order6.png">
             <h3>L'HTML AU SEO  <span>8 €</span></h3><br>
             <p>Quantité</p><input type="number" name="pizza6" min="0" max="99" value="0">
+            </form>
           </div>
         </div>
       </div>
